@@ -6,6 +6,14 @@ Run `python app.py`. You can make `GET` and `POST` calls to `localhost:5001` or 
 To learn more about the application please check our Introduction to programming course on youtube:
 https://www.youtube.com/watch?v=sCpVNizJbiE
 
+## Run test
+
+```python
+python3 -m pytest --cov=. --cov-report xml:test-results/coverage.xml --junitxml=test-results/pytest-report.xml
+# or 
+pytest --cov=.
+```
+
 # Branches:
 By selecting different branches you can get the sample code that you should have in you repository at the end of the selected block:
 
